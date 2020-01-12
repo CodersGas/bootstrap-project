@@ -132,6 +132,7 @@ body{
     color: black;
     background: #fff;
     border-bottom:1px solid #d9d9d9;
+    margin-top: -8px;
 }
 
 .nav ul{
@@ -162,8 +163,12 @@ body{
     width: 80px;
 }
 
-@media only screen and(max-width: 1000px){
-    .hidden{
-        display: none;
-    }
+/*featured stories styling*/
+.container-fluid .news-main{
+    margin: 0 auto;
+}
+
+.container-fluid .news-main section article .img-wrapper img{
+    width: 343px;
+    height: 229px;
 }
