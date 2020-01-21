@@ -168,17 +168,10 @@ body{
 }
 
 /*featured stories styling*/
-.container-fluid{
+.stories-container{
     padding: 0;
     max-width: 1280px;
     background-color: white;
-}
-.container-fluid .news-main{
-    margin: 0 0 0 20px;
-}
-
-.container-fluid .news-main section{
-    padding: 0;
 }
 
 .container-fluid .news-main section .featured-story .img-wrapper img{
@@ -246,9 +239,6 @@ body{
 
 /*top stories*/
 /*culture and travel*/
-.top-story{
-    padding: 0;
-}
 .top-story .culture-travel{
     margin-top: 15px;
     background: #e3e4e6;
@@ -326,10 +316,6 @@ body{
 }
 
 /*opinion section*/
-.opinion-news{
-    padding: 0;
-    max-width: 385px;
-}
 .opinion-news .opinion{
     margin: 0;
     padding-left: 0;
@@ -422,7 +408,6 @@ body{
 /*magazine cover*/
 .magazine-cover{
     margin-top: 50px;
-    margin-left: 15px;
 }
 
 .magazine-cover .img-wrapper img{
@@ -456,3 +441,12 @@ body{
 .magazine-cover span:hover{
     background: #a0a0a0;
 }
+
+.magazine-cover, 
+.section-header{
+    border: 1px solid black;
+}
+
+/*.section-header{
+    width: calc(100% - );
+}*/
